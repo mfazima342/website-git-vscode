@@ -1613,6 +1613,7 @@ section {
   border: 2px solid #fff;
   height: auto;
   width: auto;
+  transition: 1s;
 }
 
 #cars {
@@ -1680,5 +1681,19 @@ section {
   opacity: 1;
 }
 
+.box-image {
+  transition: 1s;
+}
+
+.box-image img {
+  display: block;
+  width: auto;
+  border-radius: 5%;
+  /* transition: 3s; */
+}
+
+.box-image:hover {
+  transform: scale(1.3);
+}
 /* #PromoAndArticle {
   /* background-color: #e2edff; */
