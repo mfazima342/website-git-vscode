@@ -1651,8 +1651,9 @@ section {
 }
 
 #colcars {
-  padding: 60px;
-  margin: 60px;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin: 10px;
 }
 .box-text.text-center {
   border-radius: 20px 20px 20px 20px !important;
