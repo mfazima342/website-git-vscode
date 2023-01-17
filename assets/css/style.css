@@ -1423,6 +1423,14 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
+.column-footer {
+  float:  left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+}
+
 #footer {
   background: black;
   padding: 120px;
@@ -1557,9 +1565,9 @@ section {
   border-radius: 0 4px 4px 0;
 }
 
-#footer .footer-top .footer-newsletter form input[type="submit"]:hover {
+/* #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
   background: #ffcd6b;
-}
+} */
 
 #footer .copyright {
   text-align: center;
